@@ -18,15 +18,15 @@
 
 ### 👨‍👩‍👧‍👦 Contributors
 
-| [FallingStar624](https://github.com/FallingStar624) | [euijinbang](https://github.com/euijinbang) |      |      |      |
-| --------------------------------------------------- | ------------------------------------------- | ---- | ---- | ---- |
+| [FallingStar624](https://github.com/FallingStar624) | [euijinbang](https://github.com/euijinbang) | [by-gramm](https://github.com/by-gramm) | [JYtorch](https://github.com/JYtorch)     |
+| --------------------------------------------------- | ------------------------------------------- | ---- | ---- |
 
 
 
 ### 🗂 문제
-| |FallingStar624|euijinbang||||
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| 1주차<br> |  |  |  |  | |
+| |FallingStar624|euijinbang|by-gramm|JYtorch|
+| :-: | :-: | :-: | :-: | :-: |
+| 1주차<br> |  |  |  |  |
 
 
 
