@@ -30,6 +30,18 @@
 
 
 
+### 🔜 깃 커밋 순서
+
+```bash
+git clone
+> git status 
+> git add 폴더
+> git commit -m "Upload : ..."
+> git push origin main
+```
+
+
+
 ##### 📝 Git Commit Message Convention
 
 ```
