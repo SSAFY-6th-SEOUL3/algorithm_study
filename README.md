@@ -26,7 +26,7 @@
 ### 🗂 문제
 | |FallingStar624|euijinbang|by-gramm|JYtorch|
 | :-: | :-: | :-: | :-: | :-: |
-| 1주차<br>(21.10.18~21.10.24) |  |  | [백준 12685번](https://www.acmicpc.net/problem/12865) |  |
+| 1주차<br>(21.10.18~21.10.24) |  | [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [백준 12685번](https://www.acmicpc.net/problem/12865) |  |
 
 
 
