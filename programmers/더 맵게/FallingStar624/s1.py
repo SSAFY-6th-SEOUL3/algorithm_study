@@ -1,8 +1,5 @@
 import heapq
 
-arr = [1, 2, 3, 9, 10, 12]
-k = 7
-
 
 def solution(scoville, K):
     cnt = 0
@@ -22,6 +19,9 @@ def solution(scoville, K):
         else:
             return -1
 
+
+arr = [1, 2, 3, 9, 10, 12]
+k = 7
 print(solution(arr, k))
 
 
