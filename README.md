@@ -23,7 +23,7 @@
 
 
 
-### 🗂 문제
+### 📒 문제
 | |FallingStar624|euijinbang|by-gramm|JYtorch|
 | :-: | :-: | :-: | :-: | :-: |
 | 1주차<br>(21.10.18~21.10.24) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [프로그래머스 크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [백준 12685번](https://www.acmicpc.net/problem/12865) |  |
@@ -52,4 +52,25 @@ Revise : 수정한 내용_설명
 Delete : 삭제한 파일_설명
 ```
 
+
+
+### 📁 폴더 구조
+
+```
+ex)
+programmers
+	\ question_name
+		\ member1
+			\ solution.py
+		\ member2
+			\ solution.py
+			\ solution2.py
+		\ member3
+		...
+baekjoon
+	\ question_name
+		\ member1
+		\ member2
+		...		
+```
 
