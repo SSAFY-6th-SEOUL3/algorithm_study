@@ -26,7 +26,7 @@
 ### 📒 문제
 | |FallingStar624|euijinbang|by-gramm|JYtorch|
 | :-: | :-: | :-: | :-: | :-: |
-| 1주차<br>(21.10.18~21.10.24) | [[프로그래머스]<br>더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [[프로그래머스]<br>크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [[백준 ] 평범한 배낭](https://www.acmicpc.net/problem/12865) | [[백준] 구슬 탈출 2](https://www.acmicpc.net/problem/13460) |
+| 1주차<br>(21.10.18~21.10.24) | [[프로그래머스]<br>더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [[프로그래머스]<br>크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [[백준]<br>평범한 배낭](https://www.acmicpc.net/problem/12865) | [[백준]<br>구슬 탈출 2](https://www.acmicpc.net/problem/13460) |
 
 
 
