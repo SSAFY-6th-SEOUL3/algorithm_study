@@ -18,5 +18,3 @@ result = random.choice(combinations)
 
 for j in range(4):
     print(f'{members[j]} >> {members[result[j]]}의 문제')
-
-
