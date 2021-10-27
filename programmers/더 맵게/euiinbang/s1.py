@@ -3,8 +3,12 @@ import heapq
 
 def solution(scoville, K):
     answer = 0
-    heap = scoville
-    heapq.heapify(scoville)
+    # heap = scoville
+    # # 힙으로 만들기 전에 힙이라는 변수에 넣음
+    # heapq.heapify(scoville)
+
+    # 스코빌을 힙으로 만듦.
+    heap = heapq.heapify(scoville)
 
     while heap and min(heap) <= K:
         least = heapq.heappop(heap)
