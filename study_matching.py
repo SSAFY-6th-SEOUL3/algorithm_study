@@ -17,6 +17,6 @@ for perm in perms:
 result = random.choice(combinations)
 
 for j in range(4):
-    print(f'{members[j]} >> {members[result[j]]}의 문제')
+    print(f'{members[j]}의 리뷰어: {members[result[j]]}')
 
 
