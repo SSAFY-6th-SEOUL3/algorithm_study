@@ -1,3 +1,4 @@
+# 딕셔너리/해시
 def solution(participant, completion):
     people = {part: 0 for part in participant}
     for part in participant:
