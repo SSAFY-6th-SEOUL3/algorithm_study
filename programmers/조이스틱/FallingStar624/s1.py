@@ -1,3 +1,4 @@
+#
 def solution(name):
     answer = 0
     for x in name:
