@@ -1,4 +1,4 @@
-
+# 풀이코드 참고
 def solution(name):
     name = list(name)
     answer = 0
@@ -14,7 +14,7 @@ def solution(name):
         left, right = 1, 1
         for l in range(1, len(name)):
             if name[i - l] == 'A':
-                left += 1
+                left += 1함
             else:
                 break
 
