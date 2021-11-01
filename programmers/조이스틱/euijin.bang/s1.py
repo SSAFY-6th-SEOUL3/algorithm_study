@@ -14,7 +14,7 @@ def solution(name):
         left, right = 1, 1
         for l in range(1, len(name)):
             if name[i - l] == 'A':
-                left += 1함
+                left += 1
             else:
                 break
 

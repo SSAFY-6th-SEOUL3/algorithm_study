@@ -12,3 +12,5 @@ def solution(participant, completion):
             pass
     answer = list(people.keys())[0]
     return answer
+
+print(solution(["leo", "kiki", "eden"], ["eden", "kiki"]))
