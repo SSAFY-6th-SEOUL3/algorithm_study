@@ -11,3 +11,6 @@ def solution(participant, completion):
             return p
         # 현재 탐색한 선수의 수를 1 감소시킨다.
         players[p] -= 1
+
+
+print(solution(["leo", "kiki", "eden"], ["eden", "kiki"]))
