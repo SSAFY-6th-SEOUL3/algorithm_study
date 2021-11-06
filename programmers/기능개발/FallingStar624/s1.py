@@ -10,7 +10,7 @@ def solution(progresses, speeds):
     answer = []
     prerequisite = durations.popleft()
     num = 1
-    #  deque를 사용하여 선행작업과 뒷 작업의 기간 비교
+    # deque를 사용하여 선행작업과 뒷 작업의 기간 비교
     while durations:
         current = durations.popleft()
         if prerequisite >= current:
