@@ -1,6 +1,5 @@
 import math
 
-
 def solution(progresses, speeds):
     answer = []
     N = len(progresses)
