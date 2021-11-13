@@ -1,29 +1,42 @@
 import heapq
-from collections import deque
 
 
+# (요청시간, 작업시간) -> (작업시간, 요청시간)
 def solution(jobs):
-    N = len(jobs)
-    jobs = sorted(deque(jobs), key=lambda x: (x[0], x[1]))
-    heap = [jobs[0]]
-    jobs = jobs[1:]
+    n = len(jobs)
+    heap = []
+    for job in jobs:
+        heap.append((job[1], job[0]))
+    heapq.heapify(heap)
     total = 0
-    current_time = 0
-    while jobs:
-        # 현재시간까지 들어온 요청을 heappush
-        for job in jobs:
-            if job[0] <= current_time:
-                heapq.heappush(heap, job)
-                jobs.remove(job)
-            else:
-                break
-        print(heap)
-        current_work = heapq.heappop(heap)
-        current_time += current_work[1]
-        total += current_time - current_work[0]
+    time = 0
+    while heap:
+        # 현재 시작 가능한 요청 중 작업시간이 가장 작은 요청으로 선택
+        next_request = heapq.heappop(heap)
+        min_time = next_request[0]
+        # heap 비었을 경우
+        if not heap:
+            time += next_request[0]
+            total += time - next_request[1]
+            return total // n
 
+        if time >= next_request[1]:
+            for _ in range(n):
+                tmp = heapq.heappop(heap)
+                # 현재 시간보다 요청 시간이 빠르고 / 현재 최단 작업시간보다 작업시간이 작으면
+                if tmp[1] <= time and min_time > tmp[0]:
+                    heapq.heappush(heap, next_request)
+                    next_request = tmp
+                    min_time = next_request[0]
+                else:
+                    heapq.heappush(heap, tmp)
+            time += next_request[0]
+            total += time - next_request[1]
+        else:
+            heapq.heappush(heap, next_request)
+            time += 1
 
-    answer = total // N
+    answer = total//n
     return answer
 
 
