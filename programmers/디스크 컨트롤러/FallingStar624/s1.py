@@ -1,3 +1,4 @@
+# 메모리 초과
 import heapq
 
 
