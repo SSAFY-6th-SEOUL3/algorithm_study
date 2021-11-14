@@ -1,3 +1,4 @@
+# tc x
 def solution(jobs):
 
     jobs.sort(key=lambda arr: arr[1])
