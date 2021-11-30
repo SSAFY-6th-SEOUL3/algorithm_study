@@ -22,12 +22,12 @@ for i in range(1, N+1):
 
 #print(prefix_sum_mod) # [0, 1, 0, 0, 1, 0]
 
-cnt = [0 for x in range(100000)]
+cnt = [0 for x in range(M)]
 for i in range(N+1):
     cnt[prefix_sum[i]] += 1
 
 ans = 0
-for i in range(N):
+for i in range(M):
     ans += (cnt[i] * (cnt[i] - 1)) // 2
 
 print(ans)
