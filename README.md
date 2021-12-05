@@ -33,8 +33,6 @@
 | 7주차<br/>(21.11.08~11.14) |  [[프로그래머스]<br>문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)  | [[프로그래머스] <br/>전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [[백준]<br/>서강그라운드](https://www.acmicpc.net/problem/14938) | [[백준]<br/>테트로미노](https://www.acmicpc.net/problem/14500) |
 
 
-
-
 ### 🔜 깃 커밋 순서
 
 ```bash
