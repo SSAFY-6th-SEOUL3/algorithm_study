@@ -20,7 +20,7 @@ for start in range(1, n+1):
     for end in range(n+1):
         cost[end] = route[start][end]
 
-    for _ in range(r):
+    for _ in range(n):
         minCost = 987654321
         w = 0
 
