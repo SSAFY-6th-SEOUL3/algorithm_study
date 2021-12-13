@@ -12,10 +12,6 @@ def solution(phone_book):
         hashes.append(hash(num))
         lens.append(len(num))
 
-    lens = sorted(list(set(lens)))
-    hashes = list(set(hashes))
-    phone_book = sorted(phone_book)
-
     for n in lens:
         for num in phone_book:
             # n개를 앞에서부터 확인
