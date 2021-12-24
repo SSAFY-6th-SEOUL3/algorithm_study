@@ -33,7 +33,7 @@
 | 7주차<br/>(21.11.15~11.21) |  [[프로그래머스]<br>문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)  | [[프로그래머스] <br/>전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [[백준]<br/>서강그라운드](https://www.acmicpc.net/problem/14938) | [[백준]<br/>테트로미노](https://www.acmicpc.net/problem/14500) |
 | 8주차<br/>(21.11.22~12.12) | [[프로그래머스]<br/>가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [[백준]<br/>유기농배추](https://www.acmicpc.net/problem/1012) | [[백준]<br/>합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | [[백준]<br/>퇴사](https://www.acmicpc.net/problem/14501) |
 | 9주차<br/>(21.12.13~12.19) | [[프로그래머스]<br/>위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [[백준]<br/>키로거](https://www.acmicpc.net/problem/5397) | [[프로그래머스]<br/>이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | [[백준]<br/>연구소](https://www.acmicpc.net/problem/14502) |
-| 10주차<br/>(21.12.20~12.26) | [[백준]<br/>막대기](https://www.acmicpc.net/problem/1094) |  | [[백준]<br/>플로이드](https://www.acmicpc.net/problem/11404) | [[백준]<br/>로봇 청소기](https://www.acmicpc.net/problem/14503) |
+| 10주차<br/>(21.12.20~12.26) | [[백준]<br/>막대기](https://www.acmicpc.net/problem/1094) | [[백준]<br/>수 정렬하기 3](https://www.acmicpc.net/problem/10989) | [[백준]<br/>플로이드](https://www.acmicpc.net/problem/11404) | [[백준]<br/>로봇 청소기](https://www.acmicpc.net/problem/14503) |
 
 
 
