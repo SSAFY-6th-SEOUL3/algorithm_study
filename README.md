@@ -4,7 +4,7 @@
 >
 > 매주 4 문제 풀이
 >
-> 매주 일요일 1-3시 모여 코드리뷰
+> 매주 일요일 오후 9시 모여 코드리뷰
 
 
 
@@ -30,12 +30,14 @@
 | 2주차<br>(21.10.25~21.10.31) | [[프로그래머스]<br>조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [[프로그래머스]<br>완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | [[백준]<br>N번째 큰 수](https://www.acmicpc.net/problem/2075) | [[백준]<br/>2048 (Easy)](https://www.acmicpc.net/problem/12100) |
 | 3주차<br>(21.11.01~11.07) | [[프로그래머스]<br>삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [[프로그래머스]<br> 기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [[백준]<br/>입국심사](https://www.acmicpc.net/problem/3079) | [[백준]<br/>뱀](https://www.acmicpc.net/problem/3190) |
 | 4주차<br/>(21.11.08~11.14) |  [[프로그래머스]<br>디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [[프로그래머스] <br/>소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [[백준]<br>나머지 합](https://www.acmicpc.net/problem/10986) | [[백준]<br>주사위 굴리기](https://www.acmicpc.net/problem/14499) |
-| 7주차<br/>(21.11.08~11.14) |  [[프로그래머스]<br>문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)  | [[프로그래머스] <br/>전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [[백준]<br/>서강그라운드](https://www.acmicpc.net/problem/14938) | [[백준]<br/>테트로미노](https://www.acmicpc.net/problem/14500) |
+| 7주차<br/>(21.11.15~11.21) |  [[프로그래머스]<br>문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)  | [[프로그래머스] <br/>전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [[백준]<br/>서강그라운드](https://www.acmicpc.net/problem/14938) | [[백준]<br/>테트로미노](https://www.acmicpc.net/problem/14500) |
+| 8주차<br/>(21.11.22~12.12) | [[프로그래머스]<br/>가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [[백준]<br/>유기농배추](https://www.acmicpc.net/problem/1012) | [[백준]<br/>합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | [[백준]<br/>퇴사](https://www.acmicpc.net/problem/14501) |
+| 9주차<br/>(21.12.13~12.19) | [[프로그래머스]<br/>위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [[백준]<br/>키로거](https://www.acmicpc.net/problem/5397) | [[프로그래머스]<br/>이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | [[백준]<br/>연구소](https://www.acmicpc.net/problem/14502) |
+| 10주차<br/>(21.12.20~12.26) |  |  | [[백준]<br/>플로이드](https://www.acmicpc.net/problem/11404) | [[백준]<br/>로봇 청소기](https://www.acmicpc.net/problem/14503) |
 
 
 
-
-### 🔜 깃 커밋 순서
+🔜 깃 커밋 순서
 
 ```bash
 git clone
