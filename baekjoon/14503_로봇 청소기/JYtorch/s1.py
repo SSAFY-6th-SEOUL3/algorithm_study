@@ -17,7 +17,7 @@ def solution1(y, x, direction):
 
         if nx < 0 or nx >= M or ny < 0 or ny >= N or mat[ny][nx]: continue
         space += 1
-        solution1(ny, nx, direction)    # 이동할 공간이 있으면 이동 후, 탐색 종료
+        solution1(ny, nx, direction)    # 이동할 공간이 있으면 이동 후, 다음 탐색 종료
         break
 
     # 4방향 모두 탐색했는데, 더이상 이동할 공간이 없다면(space == 0), direction을 바라본 채로 한칸 후진한다.
