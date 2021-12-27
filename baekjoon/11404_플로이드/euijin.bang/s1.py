@@ -1,9 +1,13 @@
+# INF 설정으로 인한 실패 => INF = 100000 * 100(최대 도시의 개수) 로 변경
+# 메모리 초과 문제 => INF = 100000 * 100(최대 도시의 개수)
+
 # 플로이드_와샬
+import sys
 
-INF = 100001
+INF = 10000000
 
-n = int(input())  # 노드 수
-m = int(input())  # 간선 수
+n = int(sys.stdin.readline())  # 노드 수
+m = int(sys.stdin.readline())  # 간선 수
 
 # 현재까지 계산된 최소비용 초기화
 d = []
@@ -11,7 +15,7 @@ for x in range(n):
     d.append([INF] * n)
 
 for _ in range(m):
-    st_node, end_node, val = map(int, input().split())
+    st_node, end_node, val = map(int, sys.stdin.readline().split())
     # 경로 1개이상인 경우(존재하는 경우) 더 비용적은 경로로 선택
     if val < d[st_node-1][end_node-1]:
         d[st_node - 1][end_node - 1] = val
@@ -31,5 +35,7 @@ for k in range(n):
 # print(d)
 for i in range(n):
     for j in range(n):
+        if d[i][j] == INF:
+            d[i][j] = 0
         print(d[i][j], end=' ')
     print()

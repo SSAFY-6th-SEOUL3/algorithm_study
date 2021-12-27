@@ -1,10 +1,14 @@
+# 시간 초과
+# 메모리 초과
 # counting sort
 
-n = int(input())
+import sys
+
+n = int(sys.stdin.readline())
 
 data = []
 for _ in range(n):
-    data.append(int(input()))
+    data.append(int(sys.stdin.readline()))
 
 # 수의 범위 1 ~ 10000
 counts = [0] * 100001
