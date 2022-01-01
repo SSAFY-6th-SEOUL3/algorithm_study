@@ -5,7 +5,12 @@ import time
 start = time.time()
 dr = [0, 1, 0, -1]
 dc = [1, 0, -1, 0]
+"""
+1. 벽 3개를 세우는 모든 경우의 수 구하기
+2. 바이러스가 이동할 수 있는 범위 다 2로 채우기
+3. 0의 개수를 카운트해서 최대값이면 갱신
 
+"""
 ##########################################################
 # bfs로 바이러스 퍼뜨리기
 from collections import deque
@@ -38,18 +43,28 @@ def solution(start, lev):
     global total, ans
 
     if lev == 3:
-        mat = [a[:] for a in arr]
+        mat = [a[:] for a in arr]  # deepcopy를 이용한 이차원 배열 복사보다 속도가 더 빠름
         bfs(mat)
 
         return
 
     else:
-        for i in range(start, N * M):
-            y = i // M
-            x = i % M
+                                        # ex. N: 3, M: 3 인 경우를 예로 들어보자.
+                                        # start = 0일 때,
+                                        # for 반복문의 i는 0부터 8까지 돎. (N * M = 9 이므로)
+                                        # i의 값에 따라 y, x 값도 다음과 같이 변함
+        for i in range(start, N * M):   # i => 0 1 2 3 4 5 6 7 8
+            y = i // M                  # y => 0 0 0 1 1 1 2 2 2
+            x = i % M                   # x => 0 1 2 0 1 2 0 1 2
+                                        # start = 0일 때, (0, 0), (0, 1), (0, 2), (1, 0), (1, 1) ... (2, 2) 8개 좌표 모두 방문
+                                        # start = 1일 때, (0, 1), (0, 2), (1, 0), (1, 1) ... (2, 2) 7개 좌표 방문
+                                        # start = 2일 때, (0, 2), (1, 0), (1, 1) ... (2, 2) 6개 좌표 방문
+                                        # ...
+                                        # start = 8일 때, (2, 2) 1개 방문
+
 
             if not arr[y][x]:
-                arr[y][x] = 1
+                arr[y][x] = 1           # 결국 lev = 3 이 되면 arr의 각 정점을 중복없이 모두 방문하면서 1을 세개씩 채워줄 수 있음.
                 solution(i, lev + 1)
                 arr[y][x] = 0
 
