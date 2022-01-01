@@ -1,5 +1,3 @@
-# 디버깅중............
-
 import sys
 sys.stdin = open("14503.txt")
 
@@ -11,133 +9,87 @@ for _ in range(n):
     row = list(map(int, input().split()))
     board.append(row)
 
-s = (r, c)
+# 상우하좌
+dr = [-1, 0, 1, 0]
+dc = [0, 1, 0, -1]
 
-stack = [s]
-visited = []
+# 청소기 방향 d (델타 일치)
+FORWARD, RIGHT, BACK, LEFT = 0, 1, 2, 3
 
-def direction(d, now):
-    if d == 3:
-        return (now[0], now[1]-1)
-    elif d == 2:
-        return (now[0]+1, now[1])
-    elif d == 1:
-        return (now[0], now[1]+1)
-    else:
-        return (now[0]-1, now[1])
+# 청소 체크
+cleaned = [[False] * m for _ in range(n)]
 
-def rear(d, now):
-    if d == 3:
-        return (now[0], now[1] + 1)
-    elif d == 2:
-        return (now[0] - 1, now[1])
-    elif d == 1:
-        return (now[0], now[1] - 1)
-    else:
-        return (now[0] + 1, now[1])
 
-while stack:
-    now = stack.pop()
-    if now not in visited:
-        visited.append(now)  # 현재 위치를 청소한다.
+def next_position(r, c, d, dir):
+    """
+    :param r: 청소기 현재 x좌표
+    :param c: 청소기 현재 y좌표
+    :param i: 청소기 현재 방향
+    :param dir: 특정 방향
+    :return: 특정 방향의 인접 위치(r, c)를 리턴
 
-    # 현재 방향을 기준으로 왼쪽 방향부터 인접칸을 탐색한다.
-    for _ in range(4):
-        if d == 3:
-            next = direction(d-1, now)
+    i = 0 즉, 앞을 보고있는 청소기의 LEFT(3) 왼쪽 방향 좌표는 (i+3)%4 = 3 즉, dr, dc의 인덱스 3
+    """
+    return r + dr[(d+dir) % 4], c + dc[(d+dir) % 4]
 
-            # 다음 칸이 청소가 되어있지 않고 벽이 아니라면
-            if next not in visited and board[next[0]][next[1]] == 0:
-                now = next
-                stack.append(now)
-                visited.append(now)
 
-            # 다음 칸이 청소는 되어있고 벽이 아니라면
-            elif next in visited and board[next[0]][next[1]] == 0:
-                # 그 방향으로 회전하고 왼쪽 방향부터 다시 탐색한다.
-                d = d-1
-                if d == -1:
-                    d = 3
+count = 0
+while True:
+    # 1. 현재 위치를 청소한다.
+    cleaned[r][c] = True
 
-            # 다음 칸이 벽이라면 왼쪽으로 돌아서 탐색한다.
-            else:
-                d = d-1
-                if d == -1:
-                    d = 3
+    # 2. 현재 위치에서 현재 방향을 기준으로 왼쪽 방향부터 차례대로 인접칸을 탐색한다.
+    count = 0
 
-        elif d == 2:
-            next = direction(d-1, now)
+    # 왼쪽 칸을 탐색한다.
+    while count < 4:
+        nr, nc = next_position(r, c, d, LEFT)
 
-            # 다음 칸이 청소가 되어있지 않고 벽이 아니라면
-            if next not in visited and board[next[0]][next[1]] == 0:
-                now = next
-                stack.append(now)
-                visited.append(now)
+        # 청소할 공간이 있고 벽이 아니라면
+        if cleaned[nr][nc] == False and board[nr][nc] == 0:
+            # 해당 방향으로 회전하고
+            d = (d - 1) % 4
+            # 한 칸 전진하고 1번으로 돌아간다.
+            r, c = nr, nc
+            break
 
-            # 다음 칸이 청소는 되어있고 벽이 아니라면
-            elif next in visited and board[next[0]][next[1]] == 0:
-                # 그 방향으로 회전하고 왼쪽 방향부터 다시 탐색한다.
-                d = d-1
-                if d == -1:
-                    d = 3
+        # 청소되어 있거나 벽인 경우
+        else:
+            # 그 방향으로 회전하고 카운트를 하나 늘린다.
+            d = (d - 1) % 4
 
-            # 다음 칸이 벽이라면 왼쪽으로 돌아서 탐색한다.
-            else:
-                d = d-1
-                if d == -1:
-                    d = 3
+            count += 1
 
-        elif d == 1:
-            next = direction(d-1, now)
+    # 네 방향을 모두 탐색했고
+    if count >= 4:
+        nr, nc = next_position(r, c, d, BACK)
 
-            # 다음 칸이 청소가 되어있지 않고 벽이 아니라면
-            if next not in visited and board[next[0]][next[1]] == 0:
-                now = next
-                stack.append(now)
-                visited.append(now)
+        # 후진이 불가능하다면 멈춘다.
+        if board[nr][nc] == 1:
+            break
+        else:
+            # 후진이 가능하다면 후진하고 2번으로 돌이간다.
+            r, c = nr, nc
 
-            # 다음 칸이 청소는 되어있고 벽이 아니라면
-            elif next in visited and board[next[0]][next[1]] == 0:
-                # 그 방향으로 회전하고 왼쪽 방향부터 다시 탐색한다.
-                d = d-1
-                if d == -1:
-                    d = 3
 
-            # 다음 칸이 벽이라면 왼쪽으로 돌아서 탐색한다.
-            else:
-                d = d-1
-                if d == -1:
-                    d = 3
 
-        else:  # d == 0
-            next = direction(d-1, now)
+# print(cleaned)
+# 최종적으로 청소한 칸의 수를 구한다.
 
-            # 다음 칸이 청소가 되어있지 않고 벽이 아니라면
-            if next not in visited and board[next[0]][next[1]] == 0:
-                now = next
-                stack.append(now)
-                visited.append(now)
+result = 0
+for i in range(n):
+    for j in range(m):
+        if cleaned[i][j] == True:
+            result += 1
 
-            # 다음 칸이 청소는 되어있고 벽이 아니라면
-            elif next in visited and board[next[0]][next[1]] == 0:
-                # 그 방향으로 회전하고 왼쪽 방향부터 다시 탐색한다.
-                d = d-1
-                if d == -1:
-                    d = 3
 
-            # 다음 칸이 벽이라면 왼쪽으로 돌아서 탐색한다.
-            else:
-                d = d-1
-                if d == -1:
-                    d = 3
-
-    # 네 방향 모두 청소가 되어있거나 벽인 경우 후진하고 다시 왼쪽 방향부터 인접칸 탐색
-    if board[rear(d, now)[0]][rear(d,now)[1]] == 1:
-        pass
-
-# 네 방향 모두 청소가 되어있거나 벽인 경우 + 뒤쪽 방향이 벽인 경우
-result = len(visited)
 print(result)
+
+
+
+
+
+
 
 
 

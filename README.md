@@ -34,7 +34,7 @@
 | 8주차<br/>(21.11.22~12.12) | [[프로그래머스]<br/>가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [[백준]<br/>유기농배추](https://www.acmicpc.net/problem/1012) | [[백준]<br/>합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | [[백준]<br/>퇴사](https://www.acmicpc.net/problem/14501) |
 | 9주차<br/>(21.12.13~12.19) | [[프로그래머스]<br/>위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [[백준]<br/>키로거](https://www.acmicpc.net/problem/5397) | [[프로그래머스]<br/>이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | [[백준]<br/>연구소](https://www.acmicpc.net/problem/14502) |
 | 10주차<br/>(21.12.20~12.26) | [[백준]<br/>막대기](https://www.acmicpc.net/problem/1094) | [[백준]<br/>수 정렬하기 3](https://www.acmicpc.net/problem/10989) | [[백준]<br/>플로이드](https://www.acmicpc.net/problem/11404) | [[백준]<br/>로봇 청소기](https://www.acmicpc.net/problem/14503) |
-| 11주차<br/>(21.12.27~01.02) | [[프로그래머스]<br/>빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) |  | [[백준]<br/>이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [[백준]<br/>스타트와 링크](https://www.acmicpc.net/problem/14889) |
+| 11주차<br/>(21.12.27~01.02) | [[프로그래머스]<br/>빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | [[백준]<br/>The candy war](https://www.acmicpc.net/problem/9037) | [[백준]<br/>이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [[백준]<br/>스타트와 링크](https://www.acmicpc.net/problem/14889) |
 
 
 
