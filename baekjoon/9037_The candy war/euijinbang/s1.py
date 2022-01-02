@@ -32,5 +32,3 @@ for tc in range(t):
     candy_state = list(map(int, sys.stdin.readline().split()))
     print(candy_time(num, candy_state))
 
-
-
