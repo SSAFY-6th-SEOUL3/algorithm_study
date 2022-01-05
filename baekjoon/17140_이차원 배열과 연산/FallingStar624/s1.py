@@ -3,7 +3,8 @@ from collections import Counter
 sys.stdin = open('input.txt', 'r')
 
 r, c, k = map(int, sys.stdin.readline().split())
-
+r -= 1
+c -= 1
 arr = []
 for _ in range(3):
     arr.append(list(map(int, sys.stdin.readline().split())))
@@ -12,6 +13,9 @@ col_max = 3
 cnt = 0
 
 while True:
+    if arr[r][c] == k:
+        print(cnt)
+        break
     if cnt > 100:
         print(-1)
         break
@@ -50,6 +54,4 @@ while True:
     row_max = len(arr)
     col_max = len(arr[0])
     cnt += 1
-    if arr[r][c] == k:
-        print(cnt)
-        break
+
