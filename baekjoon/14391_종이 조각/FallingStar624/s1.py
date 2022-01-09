@@ -6,6 +6,34 @@ paper = []
 for _ in range(N):
     paper.append(list(map(int, list(input()))))
 
-# 비트 마스킹 -> 조각 구분
-# 계산하는 함수
-# 최대값 도출
+
+max_num = 0
+for i in range(1 << N*M):
+    total = 0
+    num = format(i, 'b')
+    current = '0'*(N*M-len(num)) + str(num)
+
+    for row in range(N):
+        row_sum = 0
+        for col in range(M):
+            idx = row * M + col
+            if current[idx] == '0':
+                row_sum = row_sum*10 + paper[row][col]
+            else:
+                total += row_sum
+                row_sum = 0
+        total += row_sum
+
+    for col in range(M):
+        col_sum = 0
+        for row in range(N):
+            idx = row*M + col
+            if current[idx] == '1':
+                col_sum = col_sum*10 + paper[row][col]
+            else:
+                total += col_sum
+                col_sum = 0
+        total += col_sum
+    max_num = max(total, max_num)
+
+print(max_num)
