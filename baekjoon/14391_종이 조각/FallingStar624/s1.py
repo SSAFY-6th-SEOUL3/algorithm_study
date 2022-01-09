@@ -1,3 +1,4 @@
+# 비트마스킹
 import sys
 sys.stdin = open('input.txt', 'r')
 
