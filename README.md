@@ -36,6 +36,7 @@
 | 10주차<br/>(21.12.20~12.26) | [[백준]<br/>막대기](https://www.acmicpc.net/problem/1094) | [[백준]<br/>수 정렬하기 3](https://www.acmicpc.net/problem/10989) | [[백준]<br/>플로이드](https://www.acmicpc.net/problem/11404) | [[백준]<br/>로봇 청소기](https://www.acmicpc.net/problem/14503) |
 | 11주차<br/>(21.12.27~01.02) | [[프로그래머스]<br/>빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | [[백준]<br/>The candy war](https://www.acmicpc.net/problem/9037) | [[백준]<br/>이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [[백준]<br/>스타트와 링크](https://www.acmicpc.net/problem/14889) |
 | 12주차<br/>(22.01.03~01.09) | [[프로그래머스]<br/>하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946?language=python3) | [[백준]</br>정수삼각형](https://www.acmicpc.net/problem/1932) | [[백준]<br/>종이 조각](https://www.acmicpc.net/problem/14391) | [[백준]<br/>경사로](https://www.acmicpc.net/problem/14890) |
+| 3주차<br/>(22.01.10~01.16) | [[프로그래머스]<br/>k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335?language=python3) |  |  |  |
 
 
 
