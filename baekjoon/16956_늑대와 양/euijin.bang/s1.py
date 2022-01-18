@@ -1,6 +1,4 @@
-#error
-import sys
-sys.stdin = open("input.txt")
+# [해결] error
 
 dx = [0, -1, 0, 1]
 dy = [1, 0, -1, 0]
@@ -19,7 +17,9 @@ def solution():
                             return 0
                 for k in range(4):
                     if (0 <= i + dx[k] < r) and (0 <= j + dy[k] < c):
-                        arr[i + dx[k]][j + dy[k]] = "D"
+                        # . 일때만 D로 바꾼다. (늑대일 수 있으므로)
+                        if arr[i+dx[k]][j+dy[k]] == ".":
+                            arr[i + dx[k]][j + dy[k]] = "D"
 
 
 answer = solution()
