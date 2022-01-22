@@ -37,7 +37,7 @@
 | 11주차<br/>(21.12.27~01.02) | [[프로그래머스]<br/>빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | [[백준]<br/>The candy war](https://www.acmicpc.net/problem/9037) | [[백준]<br/>이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [[백준]<br/>스타트와 링크](https://www.acmicpc.net/problem/14889) |
 | 12주차<br/>(22.01.03~01.09) | [[프로그래머스]<br/>하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946?language=python3) | [[백준]</br>정수삼각형](https://www.acmicpc.net/problem/1932) | [[백준]<br/>종이 조각](https://www.acmicpc.net/problem/14391) | [[백준]<br/>경사로](https://www.acmicpc.net/problem/14890) |
 | 13주차<br/>(22.01.10~01.16) | [[프로그래머스]<br/>k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335?language=python3) | [[백준]<br/>늑대와 양](https://www.acmicpc.net/problem/16956) | [[백준]<br/>1로 만들기 2](https://www.acmicpc.net/problem/12852) | [[백준]<br/>톱니바퀴 ](https://www.acmicpc.net/problem/14891) |
-| 14주차<br/>(22.01.17~01.23) |  |  | [[백준]<br/>사촌](https://www.acmicpc.net/problem/9489) |  |
+| 14주차<br/>(22.01.17~01.23) |  |  | [[백준]<br/>사촌](https://www.acmicpc.net/problem/9489) | [[백준]<br/>감시](https://www.acmicpc.net/problem/15683) |
 
 
 
