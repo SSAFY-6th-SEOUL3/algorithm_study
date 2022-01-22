@@ -3,7 +3,7 @@ def prime_check(number):
     number = int(number)
     if number == 1:
         return 0
-    for i in range(2, (number // 2)+1):
+    for i in range(2, int(number**(1/2))):
         if number % i == 0:
             return 0
     return 1

@@ -16,11 +16,11 @@ def solution(number, process):
         if minimum > len(process):
             minimum = len(process)
             result = process
-    if number % 3 == 0:
+    if number % 3 == 0 and number not in process:
         solution(number//3, process+[number])
-    if number % 2 == 0:
+    if number % 2 == 0 and number not in process:
         solution(number//2, process+[number])
-    if number > 1:
+    if number > 1 and number-1 not in process:
         solution(number-1, process+[number])
 
 
