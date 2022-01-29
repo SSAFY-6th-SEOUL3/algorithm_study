@@ -1,4 +1,4 @@
-#pyp3는 통과, python3는 시간초과...?
+#pyp3는 통과, python3는 시간초과...
 import sys
 sys.stdin = open('input.txt', 'r')
 from collections import deque
