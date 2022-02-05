@@ -24,10 +24,10 @@
 
 
 ### 📒 문제
-| |FallingStar624|euijinbang|by-gramm|JYtorch|
+| |FallingStar624|euijinbang|by-gramm 🎞|JYtorch|
 | :-: | :-: | :-: | :-: | :-: |
 | 1주차<br>(21.10.18~21.10.24) | [[프로그래머스]<br>더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [[프로그래머스]<br>크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [[백준]<br>평범한 배낭](https://www.acmicpc.net/problem/12865) | [[백준]<br>구슬 탈출 2](https://www.acmicpc.net/problem/13460) |
-| solutions | [1️⃣](programmers/더%20맵게/FallingStar624/s1.py/) [2️⃣](programmers/더%20맵게/euiinbang/s1.py/) [3️⃣](programmers/더%20맵게/by-gramm/s1.py/) [4️⃣](programmers/더%20맵게/JYtorch/s1.py/) | 1️⃣2️⃣3️⃣4️⃣ | 1️⃣2️⃣3️⃣4️⃣ | 1️⃣2️⃣3️⃣4️⃣ |
+| solutions | [1️⃣](programmers/더%20맵게/FallingStar624/s1.py/) [2️⃣](programmers/더%20맵게/euiinbang/s1.py/) [🎞](programmers/더%20맵게/by-gramm/s1.py/) [4️⃣](programmers/더%20맵게/JYtorch/s1.py/) | 1️⃣2️⃣[🎞](programmers/크레인%20인형뽑기%20게임/by-gramm/s1.py/)4️⃣ | 1️⃣2️⃣[🎞](baekjoon/12865_평범한%20배낭/by-gramm/s2.py/)4️⃣ | 1️⃣2️⃣[🎞](aekjoon/13460_구슬%20탈출%202/by-gramm/s2.py/)4️⃣ |
 | 2주차<br>(21.10.25~21.10.31) | [[프로그래머스]<br>조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [[프로그래머스]<br>완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | [[백준]<br>N번째 큰 수](https://www.acmicpc.net/problem/2075) | [[백준]<br/>2048 (Easy)](https://www.acmicpc.net/problem/12100) |
 | 3주차<br>(21.11.01~11.07) | [[프로그래머스]<br>삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [[프로그래머스]<br> 기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [[백준]<br/>입국심사](https://www.acmicpc.net/problem/3079) | [[백준]<br/>뱀](https://www.acmicpc.net/problem/3190) |
 | 4주차<br/>(21.11.08~11.14) |  [[프로그래머스]<br>디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [[프로그래머스] <br/>소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [[백준]<br>나머지 합](https://www.acmicpc.net/problem/10986) | [[백준]<br>주사위 굴리기](https://www.acmicpc.net/problem/14499) |
@@ -40,6 +40,7 @@
 | 13주차<br/>(22.01.10~01.16) | [[프로그래머스]<br/>k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335?language=python3) | [[백준]<br/>늑대와 양](https://www.acmicpc.net/problem/16956) | [[백준]<br/>1로 만들기 2](https://www.acmicpc.net/problem/12852) | [[백준]<br/>톱니바퀴 ](https://www.acmicpc.net/problem/14891) |
 | 14주차<br/>(22.01.17~01.23) | [[백준]<br/>통나무 건너뛰기](https://www.acmicpc.net/problem/11497) | [[백준]</br>셀프 넘버](https://www.acmicpc.net/problem/4673) | [[백준]<br/>사촌](https://www.acmicpc.net/problem/9489) | [[백준]<br/>감시](https://www.acmicpc.net/problem/15683) |
 | 15주차<br/>(22.01.24~01.30) | [[백준]<br/>특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) | [[백준]<br/>국영수](https://www.acmicpc.net/problem/10825) | [[백준]<br/>캠프 준비](https://www.acmicpc.net/problem/16938) | [[백준]<br/>사다리 조작](https://www.acmicpc.net/problem/15684) |
+| 16주차<br/>(22.01.31~02.06) |  |  | [[백준]<br/>택배](https://www.acmicpc.net/problem/8980) |  |
 
 
 
