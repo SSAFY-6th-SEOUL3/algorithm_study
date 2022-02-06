@@ -11,6 +11,7 @@ answer = 0
 for i in range(1, 11):
     k = 1<<(i-1)  # 비트마스킹
     for j in range(k):
+        # 0 -(+1)-> 1 -(+1)-> 2  1 -(+1)-> 2, 3, 2, 1
         directions.append((directions[k-j-1]+1) % 4)
 
 for _ in range(N):
