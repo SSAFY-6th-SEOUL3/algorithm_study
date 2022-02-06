@@ -40,9 +40,7 @@
 | 13주차<br/>(22.01.10~01.16) | [[프로그래머스]<br/>k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335?language=python3) | [[백준]<br/>늑대와 양](https://www.acmicpc.net/problem/16956) | [[백준]<br/>1로 만들기 2](https://www.acmicpc.net/problem/12852) | [[백준]<br/>톱니바퀴 ](https://www.acmicpc.net/problem/14891) |
 | 14주차<br/>(22.01.17~01.23) | [[백준]<br/>통나무 건너뛰기](https://www.acmicpc.net/problem/11497) | [[백준]</br>셀프 넘버](https://www.acmicpc.net/problem/4673) | [[백준]<br/>사촌](https://www.acmicpc.net/problem/9489) | [[백준]<br/>감시](https://www.acmicpc.net/problem/15683) |
 | 15주차<br/>(22.01.24~01.30) | [[백준]<br/>특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) | [[백준]<br/>국영수](https://www.acmicpc.net/problem/10825) | [[백준]<br/>캠프 준비](https://www.acmicpc.net/problem/16938) | [[백준]<br/>사다리 조작](https://www.acmicpc.net/problem/15684) |
-| 16주차<br/>(22.01.31~02.06) | [[백준]<br/>Messi Gimossi](https://www.acmicpc.net/problem/17297) |  | [[백준]<br/>택배](https://www.acmicpc.net/problem/8980) | [[백준]<br/>드래곤 커브](https://www.acmicpc.net/problem/15685) |
-
-
+| 16주차<br/>(22.01.31~02.06) | [[백준]<br/>Messi Gimossi](https://www.acmicpc.net/problem/17297) | [[백준]<br/> 제로](https://www.acmicpc.net/problem/10773) | [[백준]<br/>택배](https://www.acmicpc.net/problem/8980) | [[백준]<br/>드래곤 커브](https://www.acmicpc.net/problem/15685) |
 
 🔜 깃 커밋 순서
 
