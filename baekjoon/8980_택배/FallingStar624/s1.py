@@ -9,7 +9,7 @@ for _ in range(M):
     infos.append((send, receive, box))
 infos.sort(key=lambda x:  x[1])  # 도착 순으로 정리
 
-capacity = [C]*N
+capacity = [C]*N  # 각 마을별 남은 택배 용량
 total = 0
 for send, receive, box in infos:
     minimum = C  # 트럭용량
