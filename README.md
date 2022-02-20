@@ -23,7 +23,15 @@
 
 
 
-### 📒 문제
+### 📗 시즌2 문제
+| |euijinbang|by-gramm 🎞|JYtorch|
+| :-: | :-: | :-: | :-: |
+| 17주차<br/>(22.02.14~02.20) | [[백준]<br/>파도반 수열](https://www.acmicpc.net/problem/9461) | [[백준]<br/>블로그](https://www.acmicpc.net/problem/21921) | [[백준]<br/>치킨 배달](https://www.acmicpc.net/problem/15686) |
+|  |                                                              |                                                            |                                                              |
+|                             |                                                              |||
+
+
+### 📒 시즌1 문제
 | |FallingStar624|euijinbang|by-gramm 🎞|JYtorch|
 | :-: | :-: | :-: | :-: | :-: |
 | 1주차<br>(21.10.18~21.10.24) | [[프로그래머스]<br>더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [[프로그래머스]<br>크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [[백준]<br>평범한 배낭](https://www.acmicpc.net/problem/12865) | [[백준]<br>구슬 탈출 2](https://www.acmicpc.net/problem/13460) |
@@ -41,7 +49,8 @@
 | 14주차<br/>(22.01.17~01.23) | [[백준]<br/>통나무 건너뛰기](https://www.acmicpc.net/problem/11497) | [[백준]</br>셀프 넘버](https://www.acmicpc.net/problem/4673) | [[백준]<br/>사촌](https://www.acmicpc.net/problem/9489) | [[백준]<br/>감시](https://www.acmicpc.net/problem/15683) |
 | 15주차<br/>(22.01.24~01.30) | [[백준]<br/>특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) | [[백준]<br/>국영수](https://www.acmicpc.net/problem/10825) | [[백준]<br/>캠프 준비](https://www.acmicpc.net/problem/16938) | [[백준]<br/>사다리 조작](https://www.acmicpc.net/problem/15684) |
 | 16주차<br/>(22.01.31~02.06) | [[백준]<br/>Messi Gimossi](https://www.acmicpc.net/problem/17297) | [[백준]<br/> 제로](https://www.acmicpc.net/problem/10773) | [[백준]<br/>택배](https://www.acmicpc.net/problem/8980) | [[백준]<br/>드래곤 커브](https://www.acmicpc.net/problem/15685) |
-| 17주차<br/>(22.02.14~02.20) |  | [[백준]<br/>파도반 수열](https://www.acmicpc.net/problem/9461) | [[백준]<br/>블로그](https://www.acmicpc.net/problem/21921) | [[백준]<br/>치킨 배달](https://www.acmicpc.net/problem/15686) |
+
+
 
 🔜 깃 커밋 순서
 
