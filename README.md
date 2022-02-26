@@ -27,7 +27,7 @@
 | |euijinbang|by-gramm|JYtorch|
 | :-: | :-: | :-: | :-: |
 | 17주차<br/>(22.02.14~02.20) | [[백준]<br/>파도반 수열](https://www.acmicpc.net/problem/9461) | [[백준]<br/>블로그](https://www.acmicpc.net/problem/21921) | [[백준]<br/>치킨 배달](https://www.acmicpc.net/problem/15686) |
-| 18주차<br/>(22.02.21~02.27) |    | [[백준]<br/>팰린드롬 분할](https://www.acmicpc.net/problem/1509) |   |
+| 18주차<br/>(22.02.21~02.27) |    | [[백준]<br/>팰린드롬 분할](https://www.acmicpc.net/problem/1509) | [[백준]<br/>연산자 끼워넣기](https://www.acmicpc.net/problem/14888) |
 |                             |                                                              |||
 
 
