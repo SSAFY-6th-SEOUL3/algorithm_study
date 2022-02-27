@@ -18,8 +18,8 @@
 
 ### 👨‍👩‍👧‍👦 Contributors
 
-| [FallingStar624](https://github.com/FallingStar624) | [euijinbang](https://github.com/euijinbang) | [by-gramm](https://github.com/by-gramm) | [JYtorch](https://github.com/JYtorch)     |
-| --------------------------------------------------- | ------------------------------------------- | ---- | ---- |
+| [FallingStar624](https://github.com/FallingStar624) | [llunaB](https://github.com/llunaB) | [by-gramm](https://github.com/by-gramm) | [JYtorch](https://github.com/JYtorch)     |
+| --------------------------------------------------- |-----------------------------------------| ---- | ---- |
 
 
 

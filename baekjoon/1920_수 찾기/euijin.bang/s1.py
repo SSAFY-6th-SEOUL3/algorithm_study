@@ -1,6 +1,10 @@
 """
 binary search
+O(logN)
 """
+
+# left = list[:mid] , mid 가 5000이면 5000개짜리 리스트를 다 복사함 ... 결과적으로는 N
+# 아래는 새 리스트 복사가 아닌 기존 리스트 활용, 참조만 함
 
 
 def binary_search(value, start, end):
