@@ -28,7 +28,7 @@
 | :-: | :-: | :-: | :-: |
 | 17주차<br/>(22.02.14~02.20) | [[백준]<br/>파도반 수열](https://www.acmicpc.net/problem/9461) | [[백준]<br/>블로그](https://www.acmicpc.net/problem/21921) | [[백준]<br/>치킨 배달](https://www.acmicpc.net/problem/15686) |
 | 18주차<br/>(22.02.21~02.27) | [[백준]<br/>수 찾기](https://www.acmicpc.net/problem/1920) | [[백준]<br/>팰린드롬 분할](https://www.acmicpc.net/problem/1509) | [[백준]<br/>연산자 끼워넣기](https://www.acmicpc.net/problem/14888) |
-| 19주차<br/>(22.02.28~03.06) |                                                              ||[[백준]<br/>인구 이동](https://www.acmicpc.net/problem/16234)|
+| 19주차<br/>(22.02.28~03.06) |      | [[백준]<br/>미세먼지 안녕!](https://www.acmicpc.net/problem/17144) |[[백준]<br/>인구 이동](https://www.acmicpc.net/problem/16234)|
 
 
 ### 📒 시즌1 문제
