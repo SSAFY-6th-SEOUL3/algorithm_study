@@ -28,11 +28,11 @@
 | :-: | :-: | :-: | :-: |
 | 17주차<br/>(22.02.14~02.20) | [[백준]<br/>파도반 수열](https://www.acmicpc.net/problem/9461) | [[백준]<br/>블로그](https://www.acmicpc.net/problem/21921) | [[백준]<br/>치킨 배달](https://www.acmicpc.net/problem/15686) |
 | 18주차<br/>(22.02.21~02.27) | [[백준]<br/>수 찾기](https://www.acmicpc.net/problem/1920) | [[백준]<br/>팰린드롬 분할](https://www.acmicpc.net/problem/1509) | [[백준]<br/>연산자 끼워넣기](https://www.acmicpc.net/problem/14888) |
-| 19주차<br/>(22.02.28~03.06) |      | [[백준]<br/>미세먼지 안녕!](https://www.acmicpc.net/problem/17144) |[[백준]<br/>인구 이동](https://www.acmicpc.net/problem/16234)|
+| 19주차<br/>(22.02.28~03.06) | [[백준]<br/>큐](https://www.acmicpc.net/problem/10845) | [[백준]<br/>미세먼지 안녕!](https://www.acmicpc.net/problem/17144) |[[백준]<br/>인구 이동](https://www.acmicpc.net/problem/16234)|
 
 
 ### 📒 시즌1 문제
-| |FallingStar624|euijinbang|by-gramm 🎞|JYtorch|
+| |FallingStar624|llunaB|by-gramm 🎞|JYtorch|
 | :-: | :-: | :-: | :-: | :-: |
 | 1주차<br>(21.10.18~21.10.24) | [[프로그래머스]<br>더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [[프로그래머스]<br>크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [[백준]<br>평범한 배낭](https://www.acmicpc.net/problem/12865) | [[백준]<br>구슬 탈출 2](https://www.acmicpc.net/problem/13460) |
 | solutions | [1️⃣](programmers/더%20맵게/FallingStar624/s1.py/) [2️⃣](programmers/더%20맵게/euiinbang/s1.py/) [🎞](programmers/더%20맵게/by-gramm/s1.py/) [4️⃣](programmers/더%20맵게/JYtorch/s1.py/) | 1️⃣2️⃣[🎞](programmers/크레인%20인형뽑기%20게임/by-gramm/s1.py/)4️⃣ | 1️⃣2️⃣[🎞](baekjoon/12865_평범한%20배낭/by-gramm/s2.py/)4️⃣ | 1️⃣2️⃣[🎞](aekjoon/13460_구슬%20탈출%202/by-gramm/s2.py/)4️⃣ |
