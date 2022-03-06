@@ -1,5 +1,5 @@
 """
-replace : 1018_체스 칠하기
+replace : 1018_체스판 다시 칠하기
 """
 
 N, M = map(int, input().split())
