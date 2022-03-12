@@ -14,6 +14,7 @@ for i in range(N - 7):
     for j in range(M - 7):
         index1 = 0  # 'W'로 시작할 경우 바뀐 체스 판의 개수
         index2 = 0  # 'B'로 시작할 경우 바뀐 체스 판의 개수
+
         for a in range(i, i + 8):
             for b in range(j, j + 8):
                 if (a + b) % 2 == 0:
