@@ -31,6 +31,7 @@
 | 19주차<br/>(22.02.28~03.06) | [[백준]<br/>미세먼지 안녕!](https://www.acmicpc.net/problem/17144) |[[백준]<br/>인구 이동](https://www.acmicpc.net/problem/16234)|[[백준]<br/>큐](https://www.acmicpc.net/problem/10845)|
 | 20주차<br/>(22.03.07~03.13) | [[백준]<br/>가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) |[[백준]<br/>동전 2](https://www.acmicpc.net/problem/2294)|[[SWEA]<br/>5209_최소생산비용](https://swexpertacademy.com/main/main.do)|
 | 21주차<br/>(22.03.14~03.20) | [[프로그래머스]<br>여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [[프로그래머스]<br/>오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [[프로그래머스]<br/>자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) |
+| 22주차<br/>(22.03.21~03.27) |  |  | [[프로그래머스]<br/>카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) |
 
 
 ### 📒 시즌1 문제
