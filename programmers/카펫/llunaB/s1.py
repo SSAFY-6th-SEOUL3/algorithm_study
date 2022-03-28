@@ -19,4 +19,3 @@ def solution(brown, yellow):
                     result.append(yellow_garo + 2)
                     result.append(yellow_sero + 2)
                     return result
-

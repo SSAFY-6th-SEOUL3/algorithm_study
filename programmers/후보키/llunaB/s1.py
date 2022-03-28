@@ -4,6 +4,7 @@ import itertools
 풀이참고
 """
 
+
 def solution(relation):
     N = len(relation[0])
     key_idx = list(range(N))  # [0, 1, 2, 3]
