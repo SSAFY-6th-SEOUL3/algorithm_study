@@ -32,7 +32,7 @@
 | 20주차<br/>(22.03.07~03.13) | [[백준]<br/>가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) |[[백준]<br/>동전 2](https://www.acmicpc.net/problem/2294)|[[SWEA]<br/>5209_최소생산비용](https://swexpertacademy.com/main/main.do)|
 | 21주차<br/>(22.03.14~03.20) | [[프로그래머스]<br>여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [[프로그래머스]<br/>오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [[프로그래머스]<br/>자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) |
 | 22주차<br/>(22.03.21~03.27) | [[프로그래머스]<br/>후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | [[백준]<br/>로마 숫자](https://www.acmicpc.net/problem/2608) | [[프로그래머스]<br/>카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) |
-| 23주차<br/>(22.03.28~04.10) |  |  | [[SWEA]<br />미생물 관찰](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AX_Pn1I6fBQDFARi) |
+| 23주차<br/>(22.03.28~04.10) |  | [[SWEA]<br/>회문2](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&passFilterYn=Y&contestProbId=AV14Rq5aABUCFAYi) | [[SWEA]<br />미생물 관찰](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AX_Pn1I6fBQDFARi) |
 
 
 ### 📒 시즌1 문제
